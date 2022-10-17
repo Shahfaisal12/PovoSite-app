@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,100&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&family=Roboto+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+.header-section {
+  .navbar {
+    background-color: #2d061b;
+
+    .nav-item {
+      .nav-link {
+        color: #ffffff;
+        font-weight: bold;
+
+        &:hover {
+          color: #f44336 !important;
+        }
+      }
+    }
+  }
+}
+
+///////////////////////////////////////////////////////////////////@at-root
+
+///////////////////////////// HERO SECTION ////////////////////////////////
+
+.hero-section {
+  background-image: url("https://povo-site.netlify.app/static/media/bga.369b8f9f.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .hero-content {
+    h1 {
+      font-weight: 700;
+      font-size: 40pt;
+      text-shadow: 0 5px 8px #8b0000;
+      text-transform: uppercase;
+      font-family: "Roboto Mono", monospace !important;
+    }
+  }
+
+  .btn-trade {
+    background-color: #ffffff;
+    color: #8b0000;
+    font-weight: bold;
+
+    &:hover {
+      color: #ffffff !important;
+      background-color: #f44336 !important;
+    }
+  }
+
+  .btn-whitepaper {
+    background-color: transparent;
+    font-weight: 600;
+    font-size: larger;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    font-size: medium;
+    margin-left: 10px;
+    padding: 12px 50px;
+    margin-top: 20px !important;
+
+    &:hover {
+      background-color: #f44336 !important;
+    }
+  }
+}
+
+////////////////////////////@at-root
+.carousel-control-prev,
+.carousel-control-next,
+.carousel-indicators {
+  display: none !important;
+}
+
+.carousel-item img {
+  border: 1px solid #424242;
+}
+
+.token-group {
+  .input-group-text {
+    background: #c62828;
+    border-radius: 0;
+    border: 1px solid #c62828;
+    color: #fff;
+  }
+
+  .form-control {
+    background: #2d061b;
+    border-radius: 0;
+    border: 1px solid #c62828 !important;
+    color: #fff;
+  }
+}
+
+.finance {
+  background-color: black;
+}
+
+///////////////////////////////////////////////////////////////////////
+
+.stake {
+  background-image: url("https://povo-site.netlify.app/static/media/wwww.fbb188c2.jpg");
+  background-size: cover;
+  background-repeat: repeat-y;
+  padding: 70px 0px 70px 0px !important;
+
+  .provo-content {
+    h1 {
+      color: #8b0000;
+      font-weight: 700;
+      margin: 10px 0px 30px 0px;
+    }
+
+    a {
+      background-color: #c62828;
+      color: #e0e0e0 !important;
+
+      &:hover {
+        background-color: #c62828;
+      }
+    }
+
+    li {
+      color: #e0e0e0;
+    }
+  }
+}
+
+/////////////////////////////////////////////////////////////////////////////@at-root
+
+.Exclusive {
+  background: url("https://povo-site.netlify.app/static/media/bga.369b8f9f.png");
+  // no-repeat 50%;
+  background-size: cover;
+  padding-top: 60px !important;
+  padding-bottom: 70px !important;
+
+  h1 {
+    color: #8b0000;
+    font-weight: 700;
+    margin: 10px 0px 30px 0px;
+  }
+}
+
+/////////////////////////////////////////////////////////////@at-root
+
+.feature-section {
+  background-image: url("https://povo-site.netlify.app/static/media/hasa.ccb6eea2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+
+   .card {
+    height: 380px;
+    
+   
+  }
+}
+
+.btn-link:hover {
+  background-color: #ffffff !important;
+}
+
+// .card-body {
+//   p:nth-of-type(4) {
+//     font-weight: bold;
+//     color: #777;
+//   }
+// }
+
+//  .card-body .title:nth-child(even) {
+//   font-weight: 700;
+//   text-align: center;
+//   color: #8b0000 !important;
+//   margin-top: 20px;
+// }
+
+// .card .card-body:nth-child(1) {
+//   background-color: #8b0000 !important;
+// }
+
+
+
+.modal-content{
+  background-color: #000000 !important;
+  color: #FFFFFF  !important;
+}
+//////////////////////////////////////////////////////////////////////////////@at-root
+
+
+.ifram-section {
+  video{
+    max-width: 1166px;
+  }
+}
+
+//////////////////////////////////////////////////////////////////////////////////
+.stacking-work-section {
+  background-color: #2d061b;
+  padding-top: 90px !important;
+  padding-bottom: 70px !important;
+  width: 100%;
+}
+
+/////////////////////////////////////////////////////////////////@at-root
+.benefite-section {
+  background: url("https://povo-site.netlify.app/static/media/bassasah.f675e964.png");
+  background-size: cover;
+  padding: 70px 0px 70px 0px !important;
+}
+
+//////////////////////////////////////////////////////////////////////@at-root
+
+.prescale-section {
+  background-image: url("https://povo-site.netlify.app/static/media/hasa.ccb6eea2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  button {
+    background-color: #f5f5f5 !important;
+    padding: 7px 15px !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: #8b0000 !important;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-top: 15px !important;
+  }
+}
+
+///////////////////////////////////////////////////////////////////////
+
+.mession-section {
+  background: url("https://povo-site.netlify.app/static/media/wwww.fbb188c2.jpg")
+    no-repeat 50%;
+  background-size: cover;
+  padding-top: 70px !important;
+  padding-bottom: 70px !important;
+  color: #ffffff;
+}
+
+///////////////////////////////////////////////////////////////////////////////@at-root
+
+.Vision {
+  padding-top: 70px !important;
+  padding-bottom: 70px !important;
+  background: url("https://povo-site.netlify.app/static/media/asssasa.ae7125e1.jpg")
+    no-repeat #000;
+  background-size: cover;
+}
+
+/////////////////////////////////////////////////////////////////////////////@at-root
+
+.tokonomic-section {
+  background: url("https://povo-site.netlify.app/static/media/wwww.fbb188c2.jpg")
+    no-repeat 50%;
+  background-size: cover;
+  padding-top: 90px !important;
+  padding-bottom: 70px !important;
+  width: 100%;
+
+  h1 {
+    margin-top: 10px;
+    color: #8b0000;
+    font-weight: 800;
+    text-align: center;
+    font-family: "Roboto Mono", monospace !important;
+  }
+
+  h5 {
+    color: #26a0d3;
+  }
+
+  h2 {
+    color: #ffc107;
+  }
+
+  ul {
+    li {
+      margin-top: 20px;
+    }
+  }
+}
+
+//////////////////////////////////////////////////////////////////////////@at-root
+
+.roadmap-section {
+  background-color: #000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+////////////////////////////////////////////////////////////////////////////////////@at-root
+
+.rugpul-section {
+  background: url("https://povo-site.netlify.app/static/media/bassasah.f675e964.png")
+    no-repeat 50%;
+  background-size: cover;
+  padding-top: 60px !important;
+  padding-bottom: 70px !important;
+  width: 100%;
+}
+
+//////////////////////////////////////////////////////////////////////////@at-root
+
+.faq-section {
+  background-image: url("https://povo-site.netlify.app/static/media/hasa.ccb6eea2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  .faq-row {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 10px !important;
+    border-radius: 10px;
+    border: none !important;
+    background: #000000;
+    .row-title-text {
+      font-weight: 500;
+    }
+  }
+  .styles_faq-row-wrapper__3vA1D {
+    background-color: transparent !important;
+  }
+}
+
+///////////////////////////////////////////////////////////////////////////////////
+
+.brand-section {
+  background-color: #000000;
+  h1 {
+    color: #8b0000 !important;
+  }
+}
+
+//////////////////////////  FOOTER SECTION  ///////////////////////////////@at-root
+
+.footer-section {
+  background-color: #12436b;
+}
+
+///////////////////////////////////////////////////////////////
