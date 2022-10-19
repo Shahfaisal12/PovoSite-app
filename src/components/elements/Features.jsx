@@ -63,19 +63,19 @@ const Features = () => {
                 </div>
                 <div className="row">
                     {
-                        cardData.map((cardItem) => {
+                        cardData.map((cardItem, index) => {
                             return (
                                 <div className="col-md-4 col-12" key={cardItem.id}>
-                                    <div className="card mycard pt-5 border-0 mt-4" >
+                                    <div className="card mycard pt-5 border-0 mt-4" style={{backgroundColor: index % 2 === 1 ? '#8b0000': 'white'}} >
                                         <div className="d-flex justify-content-center">
                                             <img src={cardItem.image} alt="" width="80px" />
                                         </div>
                                         <div className="card-body">
-                                            <div className="title text-center fs-5 fw-bold lh-sm fw-bold mb-3">
+                                            <div className="title text-center fs-5 fw-bold lh-sm fw-bold mb-3"  style={{color: index % 2 === 1 ? '#FFFFFF': '#8b0000'}}>
                                                 <span class="card-title">{cardItem.title1}</span><br />
                                                 <span class="card-title">{cardItem.title2}</span>
                                             </div>
-                                            <p className="card-text">{cardItem.content}</p>
+                                            <p className="card-text" style={{  fontWeight:'500', color: index % 2 === 1 ? '#FFFFFF': '#777'}}>{cardItem.content}</p>
                                             <div className="btn-read d-flex justify-content-end pt-3">
                                                 <Button id={cardItem.id} type='buttton' className='btn btn-link fs-5 text-warning fw-bold text-decoration-none' onClick={()=> {
                                                     setdata({

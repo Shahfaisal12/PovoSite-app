@@ -2,18 +2,21 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Nosifer&family=Roboto+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
+/////////////////////////////   HEADER SECTION  //////////////////////////////////////@at-root
 .header-section {
   .navbar {
     background-color: #2d061b;
+    .nav-link {
+      color: #ffffff;
+      font-weight: bold;
 
-    .nav-item {
-      .nav-link {
-        color: #ffffff;
-        font-weight: bold;
-
-        &:hover {
-          color: #f44336 !important;
-        }
+      &:hover {
+        color: #f44336;
+      }
+    }
+    .btn-danger {
+      &:hover {
+        color: #ffffff !important;
       }
     }
   }
@@ -68,7 +71,7 @@
   }
 }
 
-////////////////////////////@at-root
+////////////////////////  HERO RIGHT SECTION CAROUSEL ///////////@at-root
 .carousel-control-prev,
 .carousel-control-next,
 .carousel-indicators {
@@ -99,7 +102,7 @@
   background-color: black;
 }
 
-///////////////////////////////////////////////////////////////////////
+/////////////////////////////  STAKING SECTIONN    //////////////////////////////////////////
 
 .stake {
   background-image: url("https://povo-site.netlify.app/static/media/wwww.fbb188c2.jpg");
@@ -129,7 +132,7 @@
   }
 }
 
-/////////////////////////////////////////////////////////////////////////////@at-root
+///////////////////////////////  ExCLUSIVE SECTION    ////////////////////////////////@at-root
 
 .Exclusive {
   background: url("https://povo-site.netlify.app/static/media/bga.369b8f9f.png");
@@ -145,7 +148,7 @@
   }
 }
 
-/////////////////////////////////////////////////////////////@at-root
+///////////////////////////////   FEATURE SECTION      //////////////////////////////@at-root
 
 .feature-section {
   background-image: url("https://povo-site.netlify.app/static/media/hasa.ccb6eea2.jpg");
@@ -154,10 +157,8 @@
   background-repeat: no-repeat;
   background-position: center;
 
-   .card {
+  .card {
     height: 380px;
-    
-   
   }
 }
 
@@ -183,22 +184,19 @@
 //   background-color: #8b0000 !important;
 // }
 
-
-
-.modal-content{
+.modal-content {
   background-color: #000000 !important;
-  color: #FFFFFF  !important;
+  color: #ffffff !important;
 }
-//////////////////////////////////////////////////////////////////////////////@at-root
-
+////////////////////////////////////   VIDEO SECTION      //////////////////////////////////////////@at-root
 
 .ifram-section {
-  video{
+  video {
     max-width: 1166px;
   }
 }
 
-//////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////   STAKING WORK SECTION  //////////////////////////////////////////////////
 .stacking-work-section {
   background-color: #2d061b;
   padding-top: 90px !important;
@@ -206,14 +204,14 @@
   width: 100%;
 }
 
-/////////////////////////////////////////////////////////////////@at-root
+///////////////////////////////// BENEFIT SECTION  ////////////////////////////////@at-root
 .benefite-section {
   background: url("https://povo-site.netlify.app/static/media/bassasah.f675e964.png");
   background-size: cover;
   padding: 70px 0px 70px 0px !important;
 }
 
-//////////////////////////////////////////////////////////////////////@at-root
+/////////////////////////////  PRESCALE SECTION   ///////////////////////////////////@at-root
 
 .prescale-section {
   background-image: url("https://povo-site.netlify.app/static/media/hasa.ccb6eea2.jpg");
@@ -234,7 +232,7 @@
   }
 }
 
-///////////////////////////////////////////////////////////////////////
+///////////////////////////  MESSION SECTION  ////////////////////////////////////
 
 .mession-section {
   background: url("https://povo-site.netlify.app/static/media/wwww.fbb188c2.jpg")
@@ -245,7 +243,7 @@
   color: #ffffff;
 }
 
-///////////////////////////////////////////////////////////////////////////////@at-root
+////////////////////////////  VISON SECTON  ////////////////////////////////////@at-root
 
 .Vision {
   padding-top: 70px !important;
@@ -255,7 +253,7 @@
   background-size: cover;
 }
 
-/////////////////////////////////////////////////////////////////////////////@at-root
+/////////////////////////////  TKONOMIC SECTION   ///////////////////////@at-root
 
 .tokonomic-section {
   background: url("https://povo-site.netlify.app/static/media/wwww.fbb188c2.jpg")
@@ -288,7 +286,7 @@
   }
 }
 
-//////////////////////////////////////////////////////////////////////////@at-root
+/////////////////////////////////  ROADMAP SECTION  ////////////////////////@at-root
 
 .roadmap-section {
   background-color: #000;
@@ -296,7 +294,7 @@
   padding-bottom: 50px;
 }
 
-////////////////////////////////////////////////////////////////////////////////////@at-root
+///////////////////////////////  RUGPUL SECTION  ///////////////////@at-root
 
 .rugpul-section {
   background: url("https://povo-site.netlify.app/static/media/bassasah.f675e964.png")
@@ -307,7 +305,7 @@
   width: 100%;
 }
 
-//////////////////////////////////////////////////////////////////////////@at-root
+////////////////////////////  FAQ SECTION  ///////////////////@at-root
 
 .faq-section {
   background-image: url("https://povo-site.netlify.app/static/media/hasa.ccb6eea2.jpg");
@@ -330,7 +328,7 @@
   }
 }
 
-///////////////////////////////////////////////////////////////////////////////////
+////////////////////////////   BRAND SECTION   /////////////////////////////
 
 .brand-section {
   background-color: #000000;
