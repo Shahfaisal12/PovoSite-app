@@ -36,6 +36,7 @@
     h1 {
       font-weight: 700;
       font-size: 40pt;
+      // font-size: 6vw;
       text-shadow: 0 5px 8px #8b0000;
       text-transform: uppercase;
       font-family: "Roboto Mono", monospace !important;
@@ -166,35 +167,22 @@
   background-color: #ffffff !important;
 }
 
-// .card-body {
-//   p:nth-of-type(4) {
-//     font-weight: bold;
-//     color: #777;
-//   }
-// }
-
-//  .card-body .title:nth-child(even) {
-//   font-weight: 700;
-//   text-align: center;
-//   color: #8b0000 !important;
-//   margin-top: 20px;
-// }
-
-// .card .card-body:nth-child(1) {
-//   background-color: #8b0000 !important;
-// }
-
 .modal-content {
   background-color: #000000 !important;
   color: #ffffff !important;
 }
+
 ////////////////////////////////////   VIDEO SECTION      //////////////////////////////////////////@at-root
 
-.ifram-section {
-  video {
-    max-width: 1166px;
+ 
+@media only screen and (max-width: 600px) {
+  .ifram-section {
+    video {
+      max-width: 300px;
+    }
   }
 }
+
 
 ////////////////////////////////   STAKING WORK SECTION  //////////////////////////////////////////////////
 .stacking-work-section {

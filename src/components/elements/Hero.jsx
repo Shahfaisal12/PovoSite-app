@@ -16,8 +16,7 @@ const Hero = () => {
       <div className="particals position-absolute">
         <Particals />
       </div>
-      <div className="container pt-5 position-relative">
-
+      <div className="container pt-0 pt-md-5 position-relative">
         <div className="row">
           <div className="col-md-6 col-12">
             <div className="hero-content text-white pt-5">
@@ -136,12 +135,12 @@ const Hero = () => {
           <div className="row">
             <div className="col-md-6 col-12 d-flex justify-content-center">
               <a href="/">
-                <img src="https://povo-site.netlify.app/yahoo.png" className="img-fluid" alt="" style={{maxWidth:'350px'}} />
+                <img src="https://povo-site.netlify.app/yahoo.png" className="img-fluid" alt="" width={310} />
               </a>
             </div>
             <div className="col-md-6 col-12 d-flex justify-content-center">
               <a href="/">
-                <img src="https://povo-site.netlify.app/benzinga.png" className="img-fluid" alt="" style={{maxWidth:'350px'}} />
+                <img src="https://povo-site.netlify.app/benzinga.png" className="img-fluid" alt="" width={310} />
               </a>
             </div>
           </div>
